@@ -1,0 +1,182 @@
+.inner{
+	width:1100px;
+	margin:0px auto;
+}
+/*header*/
+#header{
+	
+}
+#header #top_header{
+	height:110px;
+	
+}
+#header #top_header ul li{
+	float:left;
+}
+#header #top_header ul li a{
+	font-size:14px;
+	color:#626262;
+	padding:15px 12px;
+	display:block;
+}
+.logo{
+	line-height:110px;
+}
+.menu{
+	padding-top:30px;
+}
+#top_header{
+	
+}
+#second_header{
+	min-height:560px;
+	background: url('../image/second_header.png') no-repeat center;
+	background-size: 100%;
+	position:relative;
+	
+	margin-bottom:76px;
+}
+.icon_second_header{
+    left: 650px;
+    position: absolute;
+    top: 535px;
+}
+#vtri_title_memu{
+    left: 700px;
+    position: absolute;
+    top: 570px;
+}
+.title{
+	text-align:center;
+	padding-top:210px;
+}
+.font{
+	padding-left:50px;
+}
+/*end header*/
+/*main_content*/
+#main_content{
+	padding-top:81px;
+}
+#info_menu{
+	position:relative;
+	padding-bottom:81px;
+}
+.items{
+	float:left;
+	width:46%;
+	margin-right:4%;
+	padding-bottom:55px;
+}
+.items .info_item{
+	line-height:20px;
+}
+.items .info_item>h2{
+	
+	font-size:16px;
+	font-weight:normal;
+}
+.items .info_item>p{
+	color:#999999;
+	font-size:12px;
+}
+
+.items:nth-child(2n){
+	margin-right:0px;;
+}
+.anh{
+	padding-right:30px;
+	padding-top:11px;
+}
+.more{
+	position:absolute;
+	right: 500px;
+    top: 375px;
+	padding:7px 8px;
+	display:block;
+	border:1px solid #b7b7b7;
+	color:#b7b7b7
+}
+/*end info menu*/
+#featured_dishes{
+	position:relative;/*cha*/
+	
+	width:100%;
+}
+.controller_slider{
+	position:absolute;/*con*/
+	background:url('../image/test.png') no-repeat;
+	/*top right left : xac dinh vi tri Con vs Cha*/
+	top:13px;
+	right:0px;
+	display:block;
+	width:69px;
+	height:9px;
+}
+.name{
+	position:relative;
+}
+.name h2{
+	font-size:20px;
+	padding-bottom:70px;
+}
+.name .ngan{
+	left: 170px;
+    position: absolute;
+    top: 10px;
+}
+.column{
+	float:left;
+	width:25%
+	
+	
+}
+.fix{
+	padding-left: 30px;
+}
+
+.inner_1 {
+   padding-right:45px;
+}
+.column:last-child .inner_1{
+	padding-left:45px;
+}
+.name_item p{
+	padding:15px 0px 20px 0px;
+	width:230px;
+}
+.fix1{
+	padding-left: 15px;
+}
+/*end featured dishes*/
+#gallery{
+	padding:100px 0px;
+}
+#gallery h2{
+	padding-bottom:60px;
+	font-size:22px;
+}
+.images_left image{
+	border:none;
+}
+.images_right image{
+	border:none;
+}
+/*end main_content*/
+/*footer*/
+#footer{
+	background:#3b3b3b;
+	padding:50px 0px;
+}
+.child_footer{
+	float:left;
+	width:25%;
+	line-height:30px;
+}
+.white{
+	color:#fff;
+	font-size:16px;
+}
+.menu_footer li a{
+	color:#fff;
+}

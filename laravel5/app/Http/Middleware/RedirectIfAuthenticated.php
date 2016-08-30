@@ -23,4 +23,9 @@ class RedirectIfAuthenticated
 
         return $next($request);
     }
+App::error(function(POException $exception){
+    log::error("Error connetion databse: ".$exception ->getMessage());
+    return "Error connecting";
+});
+
 }
