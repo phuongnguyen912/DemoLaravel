@@ -27,7 +27,7 @@
 							<li><a href="#">Menu</a></li>
 							<li><a href="#">Reservations</a></li>
 							<li><a href="#">News</a></li>
-							<li><a href="#">Rviews</a></li>
+							<li><a href="#">Login</a></li>
 						</ul>
 					</div>
 					<div class="clearfix"></div>
